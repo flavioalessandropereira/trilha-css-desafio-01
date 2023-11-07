@@ -54,7 +54,7 @@ h2{
 
     margin: auto;
 
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(4, 3, 3, 0.2);
     border-radius: 50%;
     padding: 20px;
 }
@@ -81,4 +81,42 @@ h2{
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
 
+}
+
+
+#course-content{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+
+
+
+#course-content h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.8rem;
+    margin-top: 40px;
+
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+#course-content p{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+#course-content .modules-list{
+    margin: 24px 0;
+}
+
+
+#course-content .modules-list .module{
+    margin: 0 auto 24px;
+    color: white
 }
